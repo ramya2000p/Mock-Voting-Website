@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="evoterStylesheet.css">
+    <title>E-Voter :: Registration</title>
+</head>
+
+<body>
+    <div id='wrapper'>
+
+        <header>
+            <h1>E-Voter</h1>
+        </header>
+
+        <div class="container">
+            <main>
+                <h2>Voter Registration</h2>
+                <form method="post" action="processRegister.php">
+                    <label>Full Name:</label><br><br>
+                    <input type="text" name="voterName" id="voterName"> <br><br>
+                    <label>IC Number:</label><br><br>
+                    <input type="text" name="icNum" id="icNum"> <br><br>
+                    <label>Date of Birth:</label><br><br>
+                    <input type="text" name="dob" id="dob"> <br><br>
+                    <label>Gender:</label><br><br>
+                    <input type="text" name="gender" id="gender"> <br><br>
+                    <label>Street Address:</label><br><br>
+                    <input type="text" name="street" id="street"> <br><br>
+                    <label>Postcode:</label><br><br>
+                    <input type="text" name="postcode" id="postcode"> <br><br>
+                    <label>City:</label><br><br>
+                    <input type="text" name="city" id="city"> <br><br>
+                    <label>State:</label><br><br>
+                    <input type="text" name="state" id="state"> <br><br>
+                    <label>Password:</label><br><br>
+                    <input type="password" name="regPassword" id="regPassword"> <br><br>
+
+                    <input type="submit" value="submit"> <br><br>
+                </form>
+            </main>
+        </div>
+
+        <footer>
+            Copyright &copy; E-Voter 2021
+        </footer>
+    </div>
+</body>
+
+</html>
